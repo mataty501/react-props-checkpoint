@@ -16,7 +16,7 @@ const Profile = (props) => {
         <div>{props.bio}</div>
         <div>{props.profession}</div>
         <div>
-            <img src={props.image} style={{width: 250}} alt='profile image'/>
+            <img src={props.children} style={{width: 250}} alt='profile image'/>
         </div>
         </>
         )
